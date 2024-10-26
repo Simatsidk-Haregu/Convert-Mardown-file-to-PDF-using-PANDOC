@@ -10,7 +10,7 @@ Install instructions:
 
 Use Homebrew to install pandoc:
 
-brew install pandoc
+``brew install pandoc``
 
 Then use Homebrew to install the PDFLaTex program.
 
