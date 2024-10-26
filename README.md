@@ -18,10 +18,11 @@ Then use Homebrew to install the PDFLaTex program.
 
 You should now have all the needed components but it won't work until the pdflatex executable is available in your PATH environment variable. To configure this my technique is to sym link the executable to a directory already in my PATH.
 
-ln -s -v /Library/TeX/texbin/pdflatex /usr/local/bin/pdflatex
+`ln -s -v /Library/TeX/texbin/pdflatex /usr/local/bin/pdflatex`
 
 Now if I enter which pdflatex on the command line the system responds:
-/usr/local/bin/pdflatex
+
+`/usr/local/bin/pdflatex`
 
 And now I'm able to generate a PDF from my Markdown file with this command
 
