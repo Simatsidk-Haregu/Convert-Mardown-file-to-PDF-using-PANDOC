@@ -1,10 +1,13 @@
 # Convert-Mardown-file-to-PDF-using-PANDOC
 Using Pandoc to generate PDFs from Markdown
 on a Mac running macOS 10.13.4
+
 To install the needed components you can use Homebrew
+
 Two Components are needed:
 1. Pandoc
 2. PDFLaTex
+
 Install instructions:
 Use Homebrew to install pandoc:
 brew install pandoc
